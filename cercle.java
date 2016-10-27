@@ -13,12 +13,11 @@ public class cercle {
 		this.rayon=rayon;
 	}
 	
-	public double Périmetre(int rayon){
-		float PI=(float)3.14;
-		return 2*rayon*PI;
-	}
-	public cercle Symetrie(point o){
-		return new cercle(o,rayon);
+	public double Périmetre(){
+		return rayon.distance()*2*3.14;}
+	
+	public cercle Symetrie(){
+	return new Cercle(o.Symetrie(),rayon.Symetrie());
 	}
 	public String toString() {
 		return  "centre =" + o + "," + "rayon =" + rayon;
