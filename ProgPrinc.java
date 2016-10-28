@@ -1,3 +1,4 @@
+ /* c'est le programme principal */
 public class ProgPrinc {
 
 	public static void main(String[] args) {
